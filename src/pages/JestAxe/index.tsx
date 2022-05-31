@@ -3,6 +3,7 @@ import React from "react";
 
 const JestAxe:React.FC = () => {
     return (
+        <div>
         <div className={"bg-gray-300 m-10 flex flex-col text-center"} >
 
             <p className={"font-black text-3xl font-bold"}>This is my marvelous form, and this is my main heading!</p>
@@ -17,10 +18,11 @@ const JestAxe:React.FC = () => {
 
 
             <form className={"flex flex-col p-10"} onSubmit={() => alert("form submitted")} >
-                <input className={"w-1/2 self-center m-2"} type={"text"}/>
+                <input  className={"w-1/2 self-center m-2"} type={"text"}/>
                 <button className={"bg-gray-500"} type={"submit"} >Submit</button>
             </form>
 
+        </div>
         </div>
     )
 
